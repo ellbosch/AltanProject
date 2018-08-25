@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>You Got Scraped, Son</title>
+</head>
+<body>
+	{% if website_title == "" %}
+	<h1>NO TITLE FOUND!</h1>
+	{% else %}
+	<h1>Title: {{ website_title }}</h1>
+	{% endif %}
+</body>
+</html>
